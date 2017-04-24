@@ -1,0 +1,39 @@
+Arguments: 
+  H:\Program Files\nodejs\node.exe H:\Program Files (x86)\Yarn\bin\yarn.js add -D gulp babel-plugin-transform-runtime babel-present-env babel-preset-stage-3 browser-sync gulp-babel gulp-cached gulp-changed gulp-clean-css gulp-concat gulp-csscomb gulp-htmlim gulp-inagein gulp-replace gulp-rev gulp-rev-collector gulp-sourcemaps gulp-uglify gulp-zip gulp-runtime gulp-file-exists gulp-file
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;H:\Ruby23-x64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;H:\Program Files\VisualSVN Server\bin;H:\Go\bin;H:\Program Files (x86)\Git\cmd;C:\UnxUtils\usr\local\wbin;H:\Program Files\TortoiseSVN\bin;H:\Program Files (x86)\Yarn\bin;H:\Program Files\nodejs\;C:\Users\CDD\AppData\Local\Microsoft\WindowsApps;H:\Program Files (x86)\Microsoft VS Code\bin;H:\Program Files (x86)\Yarn\bin;C:\Users\CDD\AppData\Roaming\npm
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  7.9.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "cddgulp",
+    "version": "1.0.0",
+    "description": "给基于gulp的脚手架项目",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "cdd",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.npmjs.com:443
+      at Object.exports._errnoException (util.js:1050:11)
+      at errnoException (dns.js:33:15)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)

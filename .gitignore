@@ -1,0 +1,15 @@
+/node_modules/
+/.idea
+/yarn.lock
+/cddgulp.sublime-workspace
+/dist/
+/register.php
+/css/**/*.css
+/.sass-cache/
+.git
+npm-debug.log
+
+#如果不生效的解决方法
+#git rm -r --cached .
+#git add .
+#git commit -m "重置 .gitignore"
